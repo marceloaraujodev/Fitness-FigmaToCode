@@ -1,0 +1,40 @@
+.container{
+  margin-top: 39px;
+  padding-top: 21px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.navUl{
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+.navUl li{
+  font-size: 12px;
+  cursor: pointer;
+}
+.smallMenuContainer{
+  display: none;
+}
+
+@media screen and (max-width: 600px){
+  .container{
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 10px;
+    align-items: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+  .navUl{
+    display: none;
+  }
+  .smallMenuContainer{
+    display: block;
+  }
+  .smallMenu{
+    margin-right: 10px;
+    font-size: 23px;
+  }
+}

@@ -1,0 +1,205 @@
+.container {
+  display: flex;
+  position: relative;
+}
+
+.highContainer {
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  width: 329px;
+  height: 36px;
+  font-size: 12px;
+  border-radius: 200px;
+  letter-spacing: 0.5px;
+  margin-bottom: 17px;
+}
+.new {
+  background-color: #25ab75;
+  height: 26px;
+  width: 46px;
+  border-radius: 200px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.bigFont {
+  /* padding-left: 41px; */
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 30px;
+  font-size: 200px;
+  font-weight: 600;
+  line-height: 170px;
+  letter-spacing: -2px;
+  text-align: left;
+  width: 871px;
+  height: 384px;
+  margin-bottom: 42px;
+}
+
+.subtitle {
+  text-align: left;
+  max-width: 600px;
+  height: 58px;
+  color: #ffffff;
+  opacity: 50%;
+  margin-bottom: 50px;
+}
+.btnContainer {
+  text-align: left;
+}
+.btnContainer button {
+  margin-right: 30px;
+}
+
+.blockRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 265px;
+  /* margin-right: 79px; */
+  width: 100%;
+  position: relative;
+
+}
+
+.timeCaloriesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 22px;
+}
+.box {
+  width: 166px;
+  height: 105px;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.valuesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.timeValue {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #ffe642;
+}
+.calValue{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #FB1351;
+  text-align: left;
+}
+.timeText {
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 13px;
+  text-align: left;
+}
+.calText{
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.imgContainer{
+  position: absolute;
+  top: -115px;
+  right: -5px;
+}
+.imgContainer img{
+  height: 700px;
+}
+
+@media screen and (max-width: 600px){
+  .highContainer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+    width: 329px;
+    height: 36px;
+    font-size: 12px;
+    border-radius: 200px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+  }
+  .bigFont{
+    font-size: 55px;
+    padding-top: 0;
+    padding-right: 16px;
+    padding-bottom: 0;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 100%;
+    height: 110px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+  }
+  .subtitle {
+    text-align: left;
+    max-width: 60%;
+    height: 128px;
+    padding-left: 10px;
+    font-size: .9rem;
+    margin-bottom: 0;
+  }
+  .timeCaloriesContainer{
+    height: 100px;
+  }
+  .box{
+    background-color: black;
+    width: 100%;
+  }
+  .imgContainer{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .valuesContainer{
+    display: none;
+  }
+  .imgContainer{
+    position: absolute;
+    top: -180px;
+    right: 10px;
+  }
+  .imgContainer img{
+    height: 200px;
+  }
+  .btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .btnContainer button{
+    width: 110px;
+    height: 40px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 5px;
+    margin: 0;
+  }
+}
